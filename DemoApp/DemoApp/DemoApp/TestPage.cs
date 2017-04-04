@@ -13,10 +13,7 @@ namespace DemoApp
         public TestPage()
         {
             Content = new StackLayout
-            {
-                Children = {
-                    new Label { Text = "Hello Page" }
-                }
+            { 
             };
         }
     }
