@@ -12,9 +12,7 @@ namespace DemoApp
     {
         public TestPage()
         {
-            Content = new StackLayout
-            { 
-            };
+            
         }
     }
 }
