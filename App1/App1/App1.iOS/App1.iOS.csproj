@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B90C7BD3-FBB0-4D4B-A44A-B2A3FBE2CB66}</ProjectGuid>
+    <ProjectGuid>{95C1ED8F-1BEF-457A-91DA-BDD852164309}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DemoApp.iOS</RootNamespace>
+    <RootNamespace>App1.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>DemoApp.iOS</AssemblyName>
+    <AssemblyName>App1.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -50,7 +50,6 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision>84e75db6-0cdd-4d9c-b8c8-00de1a37d5aa</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
@@ -139,9 +138,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DemoApp\DemoApp.csproj">
-      <Project>{bcc82aed-6084-4284-9323-1176770b3f3d}</Project>
-      <Name>DemoApp</Name>
+    <ProjectReference Include="..\App1\App1.csproj">
+      <Project>{4a52ebfe-5fef-44d9-a2e1-da3f0ac727fd}</Project>
+      <Name>App1</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
